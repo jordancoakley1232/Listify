@@ -1,0 +1,44 @@
+1.)Install dependenices
+-cross-env (Check)
+-Node-sass (Check)
+-React-redux and Redux (Check)
+-React Router Dom (Check)
+
+2.) Create Basic Routing
+-Home Page with Items
+-History Page with list of created Lists
+-Statistics Page
+
+3.) Build Side Nav Bar (Check)
+
+4.) Build First home page with items (Check)
+
+5.) Build Cart (Check)
+
+6.) Build Cart Items Look with save button
+
+7.) Create action creators and reducers to add, remove and reduce items in the cart. (Check)
+
+8.) Create action to change shopping list name. (Check)
+
+9.) Create Cart History actions and reducers
+
+
+Redux State
+{
+   shoppingItems:
+   currentCart: {
+       currentCartName: "Shopping List";
+       currentCartItems: [{id: 1, name: "Apple", quantity: 1}]
+   },
+   
+   cartHistory: {
+       Array of objects with list of carts saved
+       [
+        {id: 123243, 
+       status: (completed/pending),
+       shoppingCartName: "List for Tuesday",
+       shoppingCartItems: [{id: "1", name: "Apple", "quantity: 1}]
+       }]
+   }
+}

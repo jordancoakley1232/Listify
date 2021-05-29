@@ -1,0 +1,44 @@
+.itemlist{
+    margin-top: 4rem;
+    margin-left: 1rem;
+
+    .itemlist-category{
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: #3f3d56;
+        font-size: 1.8rem;
+    }
+
+    .itemlist-list{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+        .item-card{
+            padding: 0.75rem;
+            background: #fff;
+            width: max-content;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 6px;
+            margin: 1rem;
+            box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+
+            p{
+                font-size: 1rem;
+                font-weight: 500;
+                color: #3f3d56;
+            }
+
+            .fa-plus-circle{
+                font-size: 1.5rem;
+                margin-left: 2rem;
+                cursor: pointer;
+                color: #3f3d56;
+
+            }
+        }
+    }
+}

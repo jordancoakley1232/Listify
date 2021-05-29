@@ -1,0 +1,59 @@
+.shopping-list{
+    background: #99cc0b;
+    height: 100vh;
+    width: 35%;
+    position: sticky;
+    top: 0;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+
+    .addItems-helper{
+        position: relative;
+        border-radius: 1.2rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #cc850b;
+        p{
+            color: #fff;
+            font-size: 1.25rem;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .add-btn{
+            border: none;
+            outline: none;
+            color: #fff;
+            font-weight: 600;
+            width: 75%;
+            height: 2rem;
+            margin-top: 1rem;
+            background: #9f0bcc;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+    }
+
+    .shopping-list-name{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .empty-message{
+        text-align: center;
+        font-size: 2rem;
+        color: #3f3d56;
+    
+    }
+
+
+    
+}

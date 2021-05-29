@@ -1,0 +1,84 @@
+.Modal{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+    background-color: #fff;
+}
+
+.Overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0000004d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    // border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0.5rem 0;
+
+    .add-item-form{
+        border: 2px solid #be50e04b;
+        border-radius: 5px;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .basket {
+            color: #9f0bcc;
+            font-size: 3.5rem;
+        }
+        .field{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            
+            padding: 0 1rem;
+            margin: 0.5rem 0;
+            .label{
+                font-weight: 600;
+                margin-bottom: 0.25rem;
+            }
+            .input{
+                width: 100%;
+                height: 2rem;
+
+                &:focus{
+                    outline: none !important;
+                    border:2px solid #99cc0b;
+                }
+            }
+        }
+        .add-button{
+            width: 70%;
+            height: 2rem;
+            font-weight: 600;
+            cursor: pointer;
+            background: #99cc0b;
+            border-radius: 5px;
+            &:hover{
+                background: #afcf58;
+            }
+        }
+    }
+}
