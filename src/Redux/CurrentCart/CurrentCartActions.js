@@ -1,11 +1,4 @@
-// Action TYPES
-// export const currentCartActionTypes = {
-//     ADD_ITEM_TO_CART: "ADD_ITEM_TO_CART",
-//     REMOVE_CART_ITEM: "REMOVE_CART_ITEM",
-//     SET_CART_NAME: "SET_CART_NAME",
-//     REDUCE_CART_ITEM: "REDUCE_CART_ITEM",
-//     CLEAR_CART: "CLEAR_CART"
-// }
+
 export const ADD_ITEM_TO_CART = "ADD_ITEM_TO_CART";
 export const REMOVE_CART_ITEM = "REMOVE_CART_ITEM";
 export const REDUCE_CART_ITEM = "REDUCE_CART_ITEM";
