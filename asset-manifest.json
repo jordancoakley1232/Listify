@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Listify/static/css/main.e85a9eb6.chunk.css",
-    "main.js": "/Listify/static/js/main.3d15b1d4.chunk.js",
-    "main.js.map": "/Listify/static/js/main.3d15b1d4.chunk.js.map",
+    "main.js": "/Listify/static/js/main.58e8c9c1.chunk.js",
+    "main.js.map": "/Listify/static/js/main.58e8c9c1.chunk.js.map",
     "runtime-main.js": "/Listify/static/js/runtime-main.5125d819.js",
     "runtime-main.js.map": "/Listify/static/js/runtime-main.5125d819.js.map",
-    "static/js/2.b005f0f0.chunk.js": "/Listify/static/js/2.b005f0f0.chunk.js",
-    "static/js/2.b005f0f0.chunk.js.map": "/Listify/static/js/2.b005f0f0.chunk.js.map",
+    "static/js/2.b2928159.chunk.js": "/Listify/static/js/2.b2928159.chunk.js",
+    "static/js/2.b2928159.chunk.js.map": "/Listify/static/js/2.b2928159.chunk.js.map",
     "index.html": "/Listify/index.html",
     "static/css/main.e85a9eb6.chunk.css.map": "/Listify/static/css/main.e85a9eb6.chunk.css.map",
-    "static/js/2.b005f0f0.chunk.js.LICENSE.txt": "/Listify/static/js/2.b005f0f0.chunk.js.LICENSE.txt"
+    "static/js/2.b2928159.chunk.js.LICENSE.txt": "/Listify/static/js/2.b2928159.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5125d819.js",
-    "static/js/2.b005f0f0.chunk.js",
+    "static/js/2.b2928159.chunk.js",
     "static/css/main.e85a9eb6.chunk.css",
-    "static/js/main.3d15b1d4.chunk.js"
+    "static/js/main.58e8c9c1.chunk.js"
   ]
 }
